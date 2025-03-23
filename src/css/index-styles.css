@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Kilograph';
+    src: url('../fonts/Kilograph.otf');
+}
+
+:root {
+    --blanco: #ffffff;
+    --azul: #006FC6;
+    --blanco-medio: #F2F2F2;
+}
+
+body * {
+    font-family: 'Helvetica';
+}
+
+.btn-primary,
+.btn-primary:hover,
+.active,
+.page-link.active,
+.page-link {
+    background-color: var(--azul) !important;
+    color: var(--blanco);
+}
+
+
+.container .card:nth-child(even) {
+    background: var(--blanco-medio);
+}
